@@ -1,10 +1,18 @@
-
+import { useState } from "react";
+import { Container } from "./Container";
+import Footer from "./footer";
+import { Header } from "./Header";
+import { data } from "../../utils/data";
 
 function Home() {
-
+  const [products,setProducts]=useState(data)
   return (
-   <div></div>
-  )
+    <div className="flex flex-col h-screen">
+      <Header />
+      <Container products={products} setProducts={setProducts} />
+      <Footer />
+    </div>
+  );
 }
 
-export default Home
+export default Home;
