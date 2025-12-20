@@ -10,7 +10,7 @@ function Home() {
     <div className="flex flex-col h-screen">
       <Header />
       <Container products={products} setProducts={setProducts} />
-      <Footer />
+      <Footer totalPrice={products} setProducts={setProducts} />
     </div>
   );
 }
