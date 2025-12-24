@@ -1,7 +1,7 @@
 export function Header() {
   return (
     <div>
-      <div className="flex p-3 flex-col justify-center w-full items-center">
+      <div className="flex p-3 flex-col justify-center w-full items-center md:flex-row md:gap-3  ">
         <div>
           <img
             src="Assets/logo.png"

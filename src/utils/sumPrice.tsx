@@ -1,4 +1,3 @@
-import { data } from "./data";
 
 type Data={
     id: number;
@@ -12,4 +11,3 @@ export function sumPrice(array:Data):number {
   return  (item.price*item.quantity)+ acc
  },0)
 }
-console.log(sumPrice(data));

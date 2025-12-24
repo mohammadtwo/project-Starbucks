@@ -55,7 +55,7 @@ export function Card(props: cardProps) {
         {props.name}
       </div>
       <div className="items-start w-full px-8 text-2xl font-bold text-[#e9c9a2]">
-        {"$" +(props.quantity? props.price*props.quantity:props.price)}
+        {"$" +(props.price)}
       </div>
       <div className="flex h-8 w-31.25 bg-[#e9c9a2]  justify-between ">
         <button

@@ -34,39 +34,5 @@ export const data = [
     price: 3,
     quantity: 0,
   },
-  {
-    id: 6,
-    name: "Cappuccino",
-    img: "/Cappuccino.png",
-    price: 3.5,
-    quantity: 0,
-  },
-  {
-    id: 7,
-    name: "Latte",
-    img: "/Latte.png",
-    price: 4,
-    quantity: 0,
-  },
-  {
-    id: 8,
-    name: "Espresso",
-    img: "/Espresso.png",
-    price: 2.5,
-    quantity: 0,
-  },
-  {
-    id: 9,
-    name: "Mocha",
-    img: "/Mocha.png",
-    price: 4.5,
-    quantity: 0,
-  },
-  {
-    id: 10,
-    name: "Americano",
-    img: "/Americano.png",
-    price: 3,
-    quantity: 0,
-  },
+  
 ];
